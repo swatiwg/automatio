@@ -5,7 +5,8 @@
     <classes>
       <class name="Automation.facebook">
         <methods>
-          <include name="login"/>
+          <include name="testSetUp"/>
+          <include name="verifyGooglePageTittle"/>
         </methods>
       </class> <!-- Automation.facebook -->
     </classes>

@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.859 sec - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.736 sec <<< FAILURE! - in TestSuite
+testSetUp(Automation.facebook)  Time elapsed: 0.603 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\src\test\java\Automation\chromedriver.exe
+	at Automation.facebook.testSetUp(facebook.java:21)
+
