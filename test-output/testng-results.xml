@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5645" started-at="2020-04-21T16:23:21Z" finished-at="2020-04-21T16:23:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5645" started-at="2020-04-21T16:23:21Z" finished-at="2020-04-21T16:23:27Z">
+      <class name="Automation.facebook">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:Automation.facebook@7c16905e]" name="testSetUp" is-config="true" duration-ms="3606" started-at="2020-04-21T21:53:21Z" finished-at="2020-04-21T21:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:Automation.facebook@7c16905e]" name="verifyGooglePageTittle" duration-ms="1243" started-at="2020-04-21T21:53:25Z" finished-at="2020-04-21T21:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.facebook@7c16905e]" name="tearDown" is-config="true" duration-ms="782" started-at="2020-04-21T21:53:26Z" finished-at="2020-04-21T21:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation.facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
