@@ -1,5 +1,6 @@
 package Automation;
 
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -28,6 +29,7 @@ public class facebook {
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-gpu");
+			options.setPageLoadStrategy(PageLoadStrategy.NONE);
 			driver = new ChromeDriver(options);
 
 		
@@ -38,6 +40,7 @@ public class facebook {
 		public void verifyGooglePageTittle() {
 			driver.navigate().to(URL);
 			String getTitle = driver.getTitle();
+			System.out.println(getTitle);
 			Assert.assertEquals(getTitle, "Google");
 		}
 		
