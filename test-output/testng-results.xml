@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5932" started-at="2020-04-21T18:58:33Z" finished-at="2020-04-21T18:58:39Z">
+  <suite name="Default suite" duration-ms="6693" started-at="2020-04-21T19:11:14Z" finished-at="2020-04-21T19:11:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5932" started-at="2020-04-21T18:58:33Z" finished-at="2020-04-21T18:58:39Z">
+    <test name="Default test" duration-ms="6693" started-at="2020-04-21T19:11:14Z" finished-at="2020-04-21T19:11:21Z">
       <class name="Automation.facebook">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:Automation.facebook@675d3402]" name="testSetUp" is-config="true" duration-ms="3597" started-at="2020-04-22T00:28:33Z" finished-at="2020-04-22T00:28:36Z">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:Automation.facebook@675d3402]" name="testSetUp" is-config="true" duration-ms="4179" started-at="2020-04-22T00:41:14Z" finished-at="2020-04-22T00:41:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:Automation.facebook@675d3402]" name="verifyGooglePageTittle" duration-ms="1677" started-at="2020-04-22T00:28:36Z" finished-at="2020-04-22T00:28:38Z">
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:Automation.facebook@675d3402]" name="verifyGooglePageTittle" duration-ms="1834" started-at="2020-04-22T00:41:18Z" finished-at="2020-04-22T00:41:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.facebook@675d3402]" name="tearDown" is-config="true" duration-ms="622" started-at="2020-04-22T00:28:38Z" finished-at="2020-04-22T00:28:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.facebook@675d3402]" name="tearDown" is-config="true" duration-ms="654" started-at="2020-04-22T00:41:20Z" finished-at="2020-04-22T00:41:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

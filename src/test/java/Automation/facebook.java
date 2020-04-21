@@ -29,7 +29,6 @@ public class facebook {
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-gpu");
-			options.setPageLoadStrategy(PageLoadStrategy.NONE);
 			driver = new ChromeDriver(options);
 
 		
