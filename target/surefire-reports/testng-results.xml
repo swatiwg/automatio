@@ -2,103 +2,27 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4538" started-at="2020-04-21T17:54:06Z" finished-at="2020-04-21T17:54:10Z">
+  <suite name="Suite" duration-ms="115" started-at="2020-04-21T18:51:39Z" finished-at="2020-04-21T18:51:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4538" started-at="2020-04-21T17:54:06Z" finished-at="2020-04-21T17:54:10Z">
+    <test name="Test" duration-ms="115" started-at="2020-04-21T18:51:39Z" finished-at="2020-04-21T18:51:39Z">
       <class name="Automation.facebook">
-        <test-method status="FAIL" signature="testSetUp()[pri:0, instance:Automation.facebook@3ac3fd8b]" name="testSetUp" is-config="true" duration-ms="0" started-at="2020-04-21T23:24:06Z" finished-at="2020-04-21T23:24:06Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+        <test-method status="FAIL" signature="testSetUp()[pri:0, instance:Automation.facebook@3ac3fd8b]" name="testSetUp" is-config="true" duration-ms="0" started-at="2020-04-22T00:21:39Z" finished-at="2020-04-22T00:21:39Z">
+          <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'INSWL-1YRZHR2', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0042EB13+1501971]
-	Ordinal0 [0x003AF6D1+980689]
-	Ordinal0 [0x0033765F+489055]
-	Ordinal0 [0x002CF2F4+62196]
-	Ordinal0 [0x002CBCDA+48346]
-	Ordinal0 [0x002E9800+169984]
-	Ordinal0 [0x002E942D+169005]
-	Ordinal0 [0x002E78EB+162027]
-	Ordinal0 [0x002D0AC7+68295]
-	Ordinal0 [0x002D1B40+72512]
-	Ordinal0 [0x002D1AD9+72409]
-	Ordinal0 [0x003C8F37+1085239]
-	GetHandleVerifier [0x004CD7ED+503293]
-	GetHandleVerifier [0x004CD580+502672]
-	GetHandleVerifier [0x004D46AC+531644]
-	GetHandleVerifier [0x004CDFFA+505354]
-	Ordinal0 [0x003C0606+1050118]
-	Ordinal0 [0x003C047F+1049727]
-	Ordinal0 [0x003CAF9B+1093531]
-	Ordinal0 [0x003CB103+1093891]
-	Ordinal0 [0x003CA095+1089685]
-	BaseThreadInitThunk [0x75548494+36]
-	RtlAreBitsSet [0x77B741C8+136]
-	RtlAreBitsSet [0x77B74198+88]
-]]>
+              <![CDATA[The driver executable does not exist: C:\Users\Swanka644\workspace\new\demo\chromedriver.exe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'INSWL-1YRZHR2', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0042EB13+1501971]
-	Ordinal0 [0x003AF6D1+980689]
-	Ordinal0 [0x0033765F+489055]
-	Ordinal0 [0x002CF2F4+62196]
-	Ordinal0 [0x002CBCDA+48346]
-	Ordinal0 [0x002E9800+169984]
-	Ordinal0 [0x002E942D+169005]
-	Ordinal0 [0x002E78EB+162027]
-	Ordinal0 [0x002D0AC7+68295]
-	Ordinal0 [0x002D1B40+72512]
-	Ordinal0 [0x002D1AD9+72409]
-	Ordinal0 [0x003C8F37+1085239]
-	GetHandleVerifier [0x004CD7ED+503293]
-	GetHandleVerifier [0x004CD580+502672]
-	GetHandleVerifier [0x004D46AC+531644]
-	GetHandleVerifier [0x004CDFFA+505354]
-	Ordinal0 [0x003C0606+1050118]
-	Ordinal0 [0x003C047F+1049727]
-	Ordinal0 [0x003CAF9B+1093531]
-	Ordinal0 [0x003CB103+1093891]
-	Ordinal0 [0x003CA095+1089685]
-	BaseThreadInitThunk [0x75548494+36]
-	RtlAreBitsSet [0x77B741C8+136]
-	RtlAreBitsSet [0x77B74198+88]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Automation.facebook.testSetUp(facebook.java:22)
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Swanka644\workspace\new\demo\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at Automation.facebook.testSetUp(facebook.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -129,22 +53,22 @@ remote stacktrace: Backtrace:
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="SKIP" signature="verifyGooglePageTittle()[pri:0, instance:Automation.facebook@3ac3fd8b]" name="verifyGooglePageTittle" duration-ms="2" started-at="2020-04-21T23:24:10Z" finished-at="2020-04-21T23:24:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Automation.facebook@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-21T23:24:10Z" finished-at="2020-04-21T23:24:10Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Automation.facebook@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-22T00:21:39Z" finished-at="2020-04-22T00:21:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyGooglePageTittle()[pri:0, instance:Automation.facebook@3ac3fd8b]" name="verifyGooglePageTittle" duration-ms="0" started-at="2020-04-22T00:21:39Z" finished-at="2020-04-22T00:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
       </class> <!-- Automation.facebook -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite name="Suite1" duration-ms="0" started-at="2020-04-21T17:54:10Z" finished-at="2020-04-21T17:54:10Z">
+  <suite name="Suite1" duration-ms="0" started-at="2020-04-21T18:51:39Z" finished-at="2020-04-21T18:51:39Z">
     <groups>
     </groups>
   </suite> <!-- Suite1 -->

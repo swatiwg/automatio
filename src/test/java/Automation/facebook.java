@@ -2,6 +2,7 @@ package Automation;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -11,21 +12,31 @@ public class facebook {
 
 
 		
-		 WebDriver driver; 
+		private WebDriver driver; 
 		String URL = "http://google.com";
 
 		@BeforeClass
-		public void testSetUp() throws InterruptedException {
+		public void testSetUp() {
+		/*	
+			System.setProperty("webdriver.chrome.driver","chromedriver.exe");*/
 			
-			Thread.sleep(1000);
-			/*System.setProperty("webdriver.chrome.driver","chromedriver.exe");*/
-			driver = new ChromeDriver();
+			
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("start-maximized");
+			options.addArguments("--headless");
+			options.addArguments("--window-size=1920x1080");
+			options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-gpu");
+			driver = new ChromeDriver(options);
+
+		
+			/*driver = new ChromeDriver();*/
 		}
 		
 		@Test
-		public void verifyGooglePageTittle() throws InterruptedException {
+		public void verifyGooglePageTittle() {
 			driver.navigate().to(URL);
-			Thread.sleep(1000);
 			String getTitle = driver.getTitle();
 			Assert.assertEquals(getTitle, "Google");
 		}
