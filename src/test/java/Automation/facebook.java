@@ -11,19 +11,21 @@ public class facebook {
 
 
 		
-		private WebDriver driver; 
+		 WebDriver driver; 
 		String URL = "http://google.com";
 
 		@BeforeClass
-		public void testSetUp() {
+		public void testSetUp() throws InterruptedException {
 			
-			System.setProperty("webdriver.chrome.driver","/Users/Swanka644/workspace/new/demo/src/test/java/Automation/chromedriver.exe");
+			Thread.sleep(1000);
+			/*System.setProperty("webdriver.chrome.driver","chromedriver.exe");*/
 			driver = new ChromeDriver();
 		}
 		
 		@Test
-		public void verifyGooglePageTittle() {
+		public void verifyGooglePageTittle() throws InterruptedException {
 			driver.navigate().to(URL);
+			Thread.sleep(1000);
 			String getTitle = driver.getTitle();
 			Assert.assertEquals(getTitle, "Google");
 		}
