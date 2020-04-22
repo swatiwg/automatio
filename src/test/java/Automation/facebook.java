@@ -34,7 +34,8 @@ public class facebook {
 		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");  */
 		/*	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");*/
 			ChromeOptions options = new ChromeOptions();
-			options.setExperimentalOption("useAutomationExtension", false);
+			/*options.setExperimentalOption("useAutomationExtension", false);*/
+			options.addArguments("--disable-dev-shm-usage");
 		    driver = new ChromeDriver(options);
 		
 
