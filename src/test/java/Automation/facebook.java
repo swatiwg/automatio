@@ -32,7 +32,7 @@ public class facebook {
 			driver = new ChromeDriver(options);*/
 			
 		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");  */
-			System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+		/*	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");*/
 			ChromeOptions options = new ChromeOptions();
 			options.setExperimentalOption("useAutomationExtension", false);
 		    driver = new ChromeDriver(options);
