@@ -19,7 +19,7 @@ public class facebook {
 		@BeforeClass
 		public void testSetUp() {
 			
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/java/Automation/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/demo/src/test/java/Automation/chromedriver.exe");*/
 			
 			
 			ChromeOptions options = new ChromeOptions();
