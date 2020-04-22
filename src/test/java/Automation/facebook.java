@@ -31,7 +31,8 @@ public class facebook {
 			options.addArguments("--disable-gpu");
 			driver = new ChromeDriver(options);*/
 			
-			System.setProperty("webdriver.chrome.driver","chromedriver.exe");    
+		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");  */
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.setExperimentalOption("useAutomationExtension", false);
 		    driver = new ChromeDriver(options);
