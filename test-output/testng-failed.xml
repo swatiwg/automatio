@@ -7,7 +7,6 @@
         <methods>
           <include name="testSetUp"/>
           <include name="verifyGooglePageTittle"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- Automation.facebook -->
     </classes>

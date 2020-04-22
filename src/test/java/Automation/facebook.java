@@ -19,7 +19,7 @@ public class facebook {
 		@BeforeClass
 		public void testSetUp() {
 			
-		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");*/
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/java/Automation/chromedriver.exe");
 			
 			
 			ChromeOptions options = new ChromeOptions();
@@ -31,11 +31,10 @@ public class facebook {
 			options.addArguments("--disable-gpu");
 			driver = new ChromeDriver(options);
 			
-	/*		System.setProperty("webdriver.chrome.driver","chromedriver.exe");  
-			System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
-			ChromeOptions options = new ChromeOptions();
+		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");  */
+		/*	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/resources/chromedriver");*/
+		/*	ChromeOptions options = new ChromeOptions();
 			options.setExperimentalOption("useAutomationExtension", false);
-			options.addArguments("--disable-dev-shm-usage");
 		    driver = new ChromeDriver(options);*/
 		
 
