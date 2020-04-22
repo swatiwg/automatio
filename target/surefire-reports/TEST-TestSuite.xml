@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.94" tests="3" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.032" tests="3" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Swanka644\workspace\new\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2065959908601540529.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Swanka644\workspace\new\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3179745889925175954.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32;C:\Program Files\Java\jdk1.7.0_21\bin;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\Swanka644\AppData\Local\Programs\Python\Python37;C:\Users\Swanka644\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\apache-maven-3.3.9\bin;C:\Users\Swanka644\AppData\Local\Android\Sdk\tools\;C:\Users\Swanka644\AppData\Local\Android\Sdk\platform-tools\;C:\Users\Swanka644\AppData\Local\Android\Sdk\tools\bin\;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Users\Swanka644\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Swanka644\AppData\Local\Programs\Python\Python37\;C:\Program Files\RSA SecurID Token Common\;C:\Users\Swanka644\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Swanka644\Downloads\eclipse-jee-neon-3-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testSetUp" classname="Automation.facebook" time="3.807">
+  <testcase name="testSetUp" classname="Automation.facebook" time="2.88">
     <failure message="session not created: This version of ChromeDriver only supports Chrome version 77&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;INSWL-1YRZHR2&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0042EB13+1501971]&#10;	Ordinal0 [0x003AF6D1+980689]&#10;	Ordinal0 [0x0033765F+489055]&#10;	Ordinal0 [0x002CF2F4+62196]&#10;	Ordinal0 [0x002CBCDA+48346]&#10;	Ordinal0 [0x002E9800+169984]&#10;	Ordinal0 [0x002E942D+169005]&#10;	Ordinal0 [0x002E78EB+162027]&#10;	Ordinal0 [0x002D0AC7+68295]&#10;	Ordinal0 [0x002D1B40+72512]&#10;	Ordinal0 [0x002D1AD9+72409]&#10;	Ordinal0 [0x003C8F37+1085239]&#10;	GetHandleVerifier [0x004CD7ED+503293]&#10;	GetHandleVerifier [0x004CD580+502672]&#10;	GetHandleVerifier [0x004D46AC+531644]&#10;	GetHandleVerifier [0x004CDFFA+505354]&#10;	Ordinal0 [0x003C0606+1050118]&#10;	Ordinal0 [0x003C047F+1049727]&#10;	Ordinal0 [0x003CAF9B+1093531]&#10;	Ordinal0 [0x003CB103+1093891]&#10;	Ordinal0 [0x003CA095+1089685]&#10;	BaseThreadInitThunk [0x75548494+36]&#10;	RtlAreBitsSet [0x77B741C8+136]&#10;	RtlAreBitsSet [0x77B74198+88]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
 session not created: This version of ChromeDriver only supports Chrome version 77
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -92,9 +92,9 @@ remote stacktrace: Backtrace:
 	RtlAreBitsSet [0x77B741C8+136]
 	RtlAreBitsSet [0x77B74198+88]
 
-	at Automation.facebook.testSetUp(facebook.java:39)
+	at Automation.facebook.testSetUp(facebook.java:32)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 39604
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 45590
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
 ]]></system-err>

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 3.94 sec <<< FAILURE! - in TestSuite
-testSetUp(Automation.facebook)  Time elapsed: 3.807 sec  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 3.032 sec <<< FAILURE! - in TestSuite
+testSetUp(Automation.facebook)  Time elapsed: 2.88 sec  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 session not created: This version of ChromeDriver only supports Chrome version 77
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -34,5 +34,5 @@ remote stacktrace: Backtrace:
 	RtlAreBitsSet [0x77B741C8+136]
 	RtlAreBitsSet [0x77B74198+88]
 
-	at Automation.facebook.testSetUp(facebook.java:39)
+	at Automation.facebook.testSetUp(facebook.java:32)
 

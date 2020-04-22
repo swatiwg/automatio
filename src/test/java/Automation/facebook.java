@@ -18,25 +18,25 @@ public class facebook {
 
 		@BeforeClass
 		public void testSetUp() {
-		/*	
-			System.setProperty("webdriver.chrome.driver","chromedriver.exe");*/
+			
+		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");*/
 			
 			
-		/*	ChromeOptions options = new ChromeOptions();
+			ChromeOptions options = new ChromeOptions();
 			options.addArguments("start-maximized");
 			options.addArguments("--headless");
 			options.addArguments("--window-size=1920x1080");
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-gpu");
-			driver = new ChromeDriver(options);*/
+			driver = new ChromeDriver(options);
 			
-		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");  */
-		/*	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");*/
+	/*		System.setProperty("webdriver.chrome.driver","chromedriver.exe");  
+			System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 			ChromeOptions options = new ChromeOptions();
-			/*options.setExperimentalOption("useAutomationExtension", false);*/
+			options.setExperimentalOption("useAutomationExtension", false);
 			options.addArguments("--disable-dev-shm-usage");
-		    driver = new ChromeDriver(options);
+		    driver = new ChromeDriver(options);*/
 		
 
 		
