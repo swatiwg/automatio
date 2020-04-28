@@ -23,12 +23,6 @@ public class facebook {
 			
 			
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("start-maximized");
-			options.addArguments("--headless");
-			options.addArguments("--window-size=1920x1080");
-			options.addArguments("--disable-dev-shm-usage");
-			options.addArguments("--no-sandbox");
-			options.addArguments("--disable-gpu");
 			driver = new ChromeDriver(options);
 			
 		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");  */
