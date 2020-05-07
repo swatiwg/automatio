@@ -19,35 +19,12 @@ public class facebook {
 		@BeforeClass
 		public void testSetUp() {
 			
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/demo/src/test/java/Automation/chromedriver.exe");
+		WebDriver driver=new ChromeDriver();	
+		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+		driver.manage().window().maximize();
 			
-			
-			ChromeOptions options = new ChromeOptions();
-			driver = new ChromeDriver(options);
-			
-		/*	System.setProperty("webdriver.chrome.driver","chromedriver.exe");  */
-		/*	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/resources/chromedriver");*/
-		/*	ChromeOptions options = new ChromeOptions();
-			options.setExperimentalOption("useAutomationExtension", false);
-		    driver = new ChromeDriver(options);*/
-		
-
-		
-			/*driver = new ChromeDriver();*/
 		}
 		
-		@Test
-		public void verifyGooglePageTittle() {
-			driver.navigate().to(URL);
-			String getTitle = driver.getTitle();
-			System.out.println(getTitle);
-			Assert.assertEquals(getTitle, "Google");
-		}
-		
-		@AfterClass
-		public void tearDown() {
-			driver.quit();
-		}
 		
 	}
 
